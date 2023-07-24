@@ -1,4 +1,4 @@
-# Android MVVM Template
+# Generic Electrical Energy Cost Calculator
 
 #### A simple Template showing the use of modern android architecture component with MVVM Architecture 🏗
 
