@@ -17,15 +17,11 @@ MVVM promotes separation of concerns and makes the code more maintainable, testa
 In Android development, MVVM is often implemented using frameworks like LiveData for data observation and Data Binding for connecting the View and ViewModel.
 
 
-|<img src="screenshot/screenshot_01.png" width="280" height="600">|<img src="screenshots/screenshot_02.jpg" width="280" height="600">|
+|<img src="screenshot/screenshot_01.png" width="280" height="600">|<img src="screenshot/screenshot_02.jpg" width="280" height="600">|
 
-|<img src="screenshot/screenshot_02.png" width="280" height="600">|<img src="screenshots/screenshot_02.jpg" width="280" height="600">|
+|<img src="screenshot/screenshot_03.png" width="280" height="600">|<img src="screenshot/screenshot_04.jpg" width="280" height="600">|
 
-|<img src="screenshot/screenshot_03.png" width="280" height="600">|<img src="screenshots/screenshot_02.jpg" width="280" height="600">|
-
-|<img src="screenshot/screenshot_04.png" width="280" height="600">|<img src="screenshots/screenshot_02.jpg" width="280" height="600">|
-
-|<img src="screenshot/screenshot_05.png" width="280" height="600">|<img src="screenshots/screenshot_02.jpg" width="280" height="600">|
+|<img src="screenshot/screenshot_05.png" width="280" height="600">
 
 
 ### Build With 🏗️
