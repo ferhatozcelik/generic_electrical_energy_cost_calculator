@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activitys.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edittext_serial_number"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/serial_number"
+                android:imeOptions="actionNext"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/colorSecondary"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edittext_current_reading"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/edittext_serial_number"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/current_reading"
+                android:imeOptions="actionNext"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/colorSecondary"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_submit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/edittext_current_reading"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/poppins_medium"
+                android:imeOptions="actionNext"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <include
+                android:id="@+id/history_view_root"
+                layout="@layout/history_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_below="@+id/button_submit" />
+
+            <include
+                android:id="@+id/calculation_view_root"
+                layout="@layout/calculation_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_below="@+id/history_view_root" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

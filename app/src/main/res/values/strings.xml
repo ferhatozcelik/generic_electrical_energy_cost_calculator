@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Generic Electrical Energy Cost Calculator</string>
+    <string name="generic_electical_energy">Generic Electrical Energy</string>
+    <string name="cost_calculate">Cost Calculator</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="current_reading">Current Reading</string>
+    <string name="submit">Submit</string>
+    <string name="history">History</string>
+    <string name="units">Units</string>
+    <string name="cost">Cost</string>
+    <string name="calculation">Calculation</string>
+    <string name="total">Total</string>
+    <string name="save">Save</string>
+    <string name="app_icon">App Icon</string>
+</resources>

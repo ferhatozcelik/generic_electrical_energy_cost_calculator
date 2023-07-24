@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textview_calculate_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/poppins_bold"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="@string/calculation"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_calculate_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_calculate_title"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="3"
+        tools:listitem="@layout/cost_calculate_item" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/recyclerview_calculate_list"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/poppins_medium"
+        android:imeOptions="actionNext"
+        android:includeFontPadding="false"
+        android:lines="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
